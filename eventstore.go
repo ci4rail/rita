@@ -12,7 +12,7 @@ import (
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nats.go/jetstream"
 	"github.com/synadia-io/orbit.go/jetstreamext"
-	"github.com/synadia-labs/rita/codec"
+	"github.com/ci4rail/rita/codec"
 )
 
 const (

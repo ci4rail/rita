@@ -3,7 +3,7 @@ package codec
 import (
 	"testing"
 
-	"github.com/synadia-labs/rita/testutil"
+	"github.com/ci4rail/rita/testutil"
 )
 
 func TestBinaryCodec(t *testing.T) {

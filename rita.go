@@ -10,10 +10,10 @@ import (
 
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nats.go/jetstream"
-	"github.com/synadia-labs/rita/clock"
-	"github.com/synadia-labs/rita/codec"
-	"github.com/synadia-labs/rita/id"
-	"github.com/synadia-labs/rita/types"
+	"github.com/ci4rail/rita/clock"
+	"github.com/ci4rail/rita/codec"
+	"github.com/ci4rail/rita/id"
+	"github.com/ci4rail/rita/types"
 )
 
 type ritaOption func(o *Rita) error

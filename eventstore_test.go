@@ -6,8 +6,8 @@ import (
 
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nats.go/jetstream"
-	"github.com/synadia-labs/rita/testutil"
-	"github.com/synadia-labs/rita/types"
+	"github.com/ci4rail/rita/testutil"
+	"github.com/ci4rail/rita/types"
 )
 
 type OrderPlaced struct{}

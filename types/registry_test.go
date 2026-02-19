@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/synadia-labs/rita/codec"
-	"github.com/synadia-labs/rita/internal/pb"
-	"github.com/synadia-labs/rita/testutil"
+	"github.com/ci4rail/rita/codec"
+	"github.com/ci4rail/rita/internal/pb"
+	"github.com/ci4rail/rita/testutil"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

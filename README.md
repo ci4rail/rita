@@ -6,19 +6,19 @@ Rita is a toolkit of various event-centric and reactive abstractions build on to
 
 [![GoDoc][GoDoc-Image]][GoDoc-URL] [![ReportCard][ReportCard-Image]][ReportCard-URL] [![GitHub Actions][GitHubActions-Image]][GitHubActions-URL]
 
-[GoDoc-Image]: https://pkg.go.dev/badge/github.com/synadia-labs/rita
-[GoDoc-URL]: https://pkg.go.dev/github.com/synadia-labs/rita
-[ReportCard-Image]: https://goreportcard.com/badge/github.com/synadia-labs/rita
-[ReportCard-URL]: https://goreportcard.com/report/github.com/synadia-labs/rita
-[GitHubActions-Image]: https://github.com/synadia-labs/rita/actions/workflows/ci.yaml/badge.svg?branch=main
-[GitHubActions-URL]: https://github.com/synadia-labs/rita/actions?query=branch%3Amain
+[GoDoc-Image]: https://pkg.go.dev/badge/github.com/ci4rail/rita
+[GoDoc-URL]: https://pkg.go.dev/github.com/ci4rail/rita
+[ReportCard-Image]: https://goreportcard.com/badge/github.com/ci4rail/rita
+[ReportCard-URL]: https://goreportcard.com/report/github.com/ci4rail/rita
+[GitHubActions-Image]: https://github.com/ci4rail/rita/actions/workflows/ci.yaml/badge.svg?branch=main
+[GitHubActions-URL]: https://github.com/ci4rail/rita/actions?query=branch%3Amain
 
 ## Install
 
 Requires Go 1.24+
 
 ```
-go get github.com/synadia-labs/rita
+go get github.com/ci4rail/rita
 ```
 
 ## Usage

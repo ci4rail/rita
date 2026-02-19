@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/nats-io/nats.go"
-	"github.com/synadia-labs/rita/testutil"
+	"github.com/ci4rail/rita/testutil"
 )
 
 type DecideWithEvent struct{}
