@@ -353,7 +353,12 @@ func (s *EventStore) Evolve(ctx context.Context, model Evolver, opts ...EvolveOp
 	if err != nil {
 		return 0, err
 	}
-
+	// ensure consumer is deleted when all events have been read.
+	// otherwise, it will hang around for some minutes until the server detects it's idle and deletes it.
+	defer func() {
+		info, _ := con.Info(ctx)
+		_ = s.rt.js.DeleteConsumer(ctx, s.name, info.Name)
+	}()
 	// The number of messages to consume until we are caught up
 	// to the current known state.
 	pending := con.CachedInfo().NumPending
