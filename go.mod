@@ -1,4 +1,4 @@
-module github.com/synadia-labs/rita
+module github.com/ci4rail/rita
 
 go 1.24.0
 
